@@ -13,7 +13,7 @@
     <nav>
         <router-link to="/home">Home</router-link>
         <router-link to="/sobre">Sobre nós</router-link>
-        <router-link to="/contato">Contato</router-link>
+        <router-link to="/login">Contato</router-link>
     </nav>
 </header>
 </template>

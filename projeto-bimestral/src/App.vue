@@ -6,11 +6,9 @@
 
 <script>
 
+
 export default {
   name: 'App',
-  components: {
-
-  }
 }
 </script>
 
@@ -24,6 +22,6 @@ export default {
   margin-top: 60px;
 }
 div{
-  background-color: darkorchid;
+  background-color: lightcyan
 }
 </style>
