@@ -6,7 +6,7 @@ import ContactPage from "./components/Pages/ContactPage.vue";
 
 const routes = [
     {
-        path: "/home",
+        path: "/",
         name: "Home",
         component: HomePage
     },
