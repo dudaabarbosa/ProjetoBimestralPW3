@@ -1,6 +1,10 @@
 <!-- Use esse HTML e CSS aqui  -->
 
 <!-- CSS 
+Instale por NPM os icones
+$ npm install boxicons --save
+import 'boxicons'
+
 <style>
         * {
             margin: 0;
