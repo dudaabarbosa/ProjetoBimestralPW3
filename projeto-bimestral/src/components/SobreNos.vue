@@ -54,6 +54,7 @@ td{
     text-align: center;
 }
 h2{
+    margin-top: 30px;
     text-align: center;
 }
 </style>
