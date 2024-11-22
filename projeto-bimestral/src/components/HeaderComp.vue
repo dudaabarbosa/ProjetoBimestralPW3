@@ -48,15 +48,15 @@
             <input type="text" placeholder="Pesquisar">
         </form>
         <div class="lo-ca">
-        <router-link style="text-decoration: none; color: inherit; margin-right: 30px;" to="/login"><img src="../assets/perfil.png" style="width:64px"></router-link>
-        <router-link style="text-decoration: none; color: inherit; margin-right: 80px;" to="/home">Carrinho</router-link>
+        <router-link style="text-decoration: none; color: inherit; margin-right: 30px; margin-left: 15px;" to="/login"><img src="../assets/perfil.png" style="width:30px; margin-left: 50px;"> Login</router-link>
+        <router-link style="text-decoration: none; color: inherit; margin-right: 40px;" to="/home"><img src="../assets/carrinho.png" style="width:30px"> Carrinho</router-link>
         </div>
     </div>
 
     <nav>
-        <router-link style="text-decoration: none; color: inherit; margin-right: 80px;" to="/">Home</router-link>
-        <router-link style="text-decoration: none; color: inherit; margin-right: 80px;" to="/sobre">Sobre nós</router-link>
-        <router-link style="text-decoration: none; color: inherit;" to="/contato">Contato</router-link>
+        <router-link style="text-decoration: none; color: inherit; margin-right: 80px; margin-left: 20px;" to="/">HOME</router-link>
+        <router-link style="text-decoration: none; color: inherit; margin-right: 80px;" to="/sobre">SOBRE NÓS</router-link>
+        <router-link style="text-decoration: none; color: inherit;" to="/contato">CONTATO</router-link>
     </nav>
 </header>
 </template>
@@ -71,8 +71,7 @@ export default {
 
 <style scoped>
 img{
-  width: 120px;
-  border-radius: 50%;
+  width: 80px;
 }
 header{
     background-color: #9a70f0;
@@ -91,4 +90,10 @@ form {
     display: flex;
     justify-content: center;
 }
+input{
+  border-radius: 30px;
+  text-align: center;
+  width: 350px;
+}
+
 </style>

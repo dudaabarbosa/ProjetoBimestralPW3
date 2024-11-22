@@ -146,16 +146,18 @@ import 'boxicons'
 -->
 
 <template>
-    <h2>LOGIN</h2>
+    <h2 class="logar">LOGIN</h2>
     <div class="caixinhas">
         <form @submit.prevent="logar">
             <input style="margin-bottom: 10px;" type="email" placeholder="Email">
             <br>
             <input style="margin-bottom: 10px;" type="password" placeholder="Senha">
             <br>
-                <input style="margin: auto;" type="submit" value="Logar">
+                <input style="margin: auto; width: 80px;" type="submit" value="Logar">
         </form>
     </div>
+    <p>Não tem uma conta?</p>
+    <router-link style="color: inherit;" to="/cadastro">Cadastre-se</router-link>
 </template>
 
 <script>
@@ -163,17 +165,21 @@ export default {
     name: "LoginComp",
     methods: {
         logar() {
-            this.$router.push({ path: '/Home' })
+            this.$router.push({ path: '/' })
         }
     }
 }
 </script>
 
-<style>
+<style scoped>
 
 root {
     --bargronaldpo: #111111;
 }
+.logar{
+    margin: 0;
+    margin-bottom: 30px;
+ }
  
 .caixinhas{
     display: flex;
@@ -184,6 +190,10 @@ form {
     display: flex;
     flex-direction: column;
     color: var(--bargronaldpo);
+}
+input{
+    border-radius: 50px;
+    text-align: center;
 }
 
 

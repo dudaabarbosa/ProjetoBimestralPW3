@@ -40,6 +40,7 @@ p{
 table{
     margin: auto;
     border: 2px solid black;
+    margin-bottom: 10px;
 }
 .imagem {
     width: 60%;
