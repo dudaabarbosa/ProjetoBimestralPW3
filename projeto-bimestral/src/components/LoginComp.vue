@@ -149,9 +149,9 @@ import 'boxicons'
     <h2 class="logar">LOGIN</h2>
     <div class="caixinhas">
         <form @submit.prevent="logar">
-            <input style="margin-bottom: 10px;" type="email" placeholder="Email">
+            <input style="margin-bottom: 10px;" type="email" placeholder="Email" required>
             <br>
-            <input style="margin-bottom: 10px;" type="password" placeholder="Senha">
+            <input style="margin-bottom: 10px;" type="password" placeholder="Senha" required>
             <br>
                 <input style="margin: auto; width: 80px;" type="submit" value="Logar">
         </form>

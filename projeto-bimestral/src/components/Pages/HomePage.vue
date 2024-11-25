@@ -22,7 +22,7 @@ export default {
 <style scoped>
 footer{
     position: absolute;
-    margin-top: 800px;
+    margin-top: 600px;
 }
 .books{
     margin-top: 50px;

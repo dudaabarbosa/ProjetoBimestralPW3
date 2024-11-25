@@ -49,7 +49,7 @@
         </form>
         <div class="lo-ca">
         <router-link style="text-decoration: none; color: inherit; margin-right: 30px; margin-left: 15px;" to="/login"><img src="../assets/perfil.png" style="width:30px; margin-left: 50px;"> Login</router-link>
-        <router-link style="text-decoration: none; color: inherit; margin-right: 40px;" to="/home"><img src="../assets/carrinho.png" style="width:30px"> Carrinho</router-link>
+        <router-link style="text-decoration: none; color: inherit; margin-right: 40px;" to="/erro"><img src="../assets/carrinho.png" style="width:30px"> Carrinho</router-link>
         </div>
     </div>
 

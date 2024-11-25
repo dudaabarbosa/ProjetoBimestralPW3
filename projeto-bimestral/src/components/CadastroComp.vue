@@ -1,7 +1,8 @@
 <template>
 <h2>CADASTRO</h2>
+<div>
 <form @submit.prevent="cadastrar">
-    <input style="margin-bottom: 10px;" type="text" placeholder="Nome">
+    <input style="margin-bottom: 10px;" type="text" placeholder="Nome" >
     <br>
     <input style="margin-bottom: 10px;" type="email" placeholder="Email">
     <br>
@@ -11,10 +12,12 @@
     <input style="width:110px; margin-left: 10px;" type="number" placeholder="N° da casa">
     <br>
     <input style="margin-bottom: 10px; margin-right: 10px;" type="password" placeholder="Senha">
+    <br>
     <input style="margin-bottom: 10px;" type="password" placeholder="Confirme a senha">
     <br>
-    <input class="cadastrar" style="margin: auto; width: 100px; margin-top: 30px;" type="submit" value="Cadastrar">
+    <button class="cadastrar" style="margin: auto; width: 100px; margin-top: 30px;" type="submit" value="Cadastrar">Cadastrar</button>
 </form>
+</div>
 </template>
 
 <script>
@@ -31,13 +34,25 @@ export default {
 <style>
 h2{
     color: black;
-    margin-top: 0;
+    margin-top: -30px;
     margin-bottom: 20px;
 }
+
 input{
-    border-radius: 8px;
+    background-color: #9a70f0;
     text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
+    border: 0;
+    border-bottom: 2px solid black;
+    color: black;
+    width: 150px;
 }
+button{
+    height: 30px;
+    border-radius: 20px;
+    color: black;
+}
+input::placeholder{
+    color: black;
+}
+
 </style>

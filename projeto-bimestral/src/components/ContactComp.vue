@@ -88,6 +88,7 @@
 
     footer{
         position: absolute;
+        margin-top: 60px;
     }
 
     </style>

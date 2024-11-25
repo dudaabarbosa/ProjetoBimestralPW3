@@ -4,6 +4,7 @@ import LoginPage from "./components/Pages/LoginPage.vue";
 import AboutPage from "./components/Pages/AboutPage.vue";
 import ContactPage from "./components/Pages/ContactPage.vue";
 import CadastroPage from "./components/Pages/CadastroPage.vue";
+import ErroPage from "./components/Pages/ErroPage.vue";
 
 const routes = [
     {
@@ -30,6 +31,11 @@ const routes = [
         path: "/cadastro",
         name: "Cadastro",
         component: CadastroPage
+    },
+    {
+        path: "/erro",
+        name: "Erro",
+        component: ErroPage
     }
 ]
 

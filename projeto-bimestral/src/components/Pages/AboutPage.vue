@@ -16,5 +16,11 @@ export default {
 </script>
 
 <style>
-
+footer{
+    position: absolute;
+    margin-top: 80px;
+}
+header{
+    margin-bottom: 20px;
+}
 </style>

@@ -41,6 +41,7 @@ table{
     margin: auto;
     border: 2px solid black;
     margin-bottom: 10px;
+    width: 80%;
 }
 .imagem {
     width: 60%;
@@ -55,7 +56,8 @@ td{
     text-align: center;
 }
 h2{
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
 }
 </style>

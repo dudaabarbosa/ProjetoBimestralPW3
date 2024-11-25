@@ -23,22 +23,22 @@
 <div>
 <img src="https://m.media-amazon.com/images/I/81FEytag46L._SY466_.jpg" alt="">
 <p>O lado feio do amor</p>
-<p>86,70</p>
+<p>R$86,70</p>
 </div>
 <div>
 <img src="https://m.media-amazon.com/images/I/715h8DWokhL._SY466_.jpg" alt="">
 <p>Ainda estou aqui</p>
-<p>120,35</p>
+<p>R$120,35</p>
 </div>
 <div>
 <img src="https://m.media-amazon.com/images/I/4128BOZ-OhL._SY445_SX342_.jpg" alt="">
 <p>Pessoas normais</p>
-<p>77,40</p>
+<p>R$77,40</p>
 </div>
 <div>
 <img src="https://m.media-amazon.com/images/I/81Vhnel+xxL._SY466_.jpg" alt="">
 <p>Todas as suas IMperfeições</p>
-<p>48,90</p>
+<p>R$48,90</p>
 </div>
 </div>
 </template>
