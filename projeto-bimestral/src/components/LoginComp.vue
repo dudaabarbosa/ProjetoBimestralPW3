@@ -195,7 +195,9 @@ input{
     border-radius: 50px;
     text-align: center;
 }
-
+h2{
+    color: black;
+}
 
 /* 
 font-size - 2rem - 1rem = 16px */

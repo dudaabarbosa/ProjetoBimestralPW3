@@ -14,11 +14,12 @@ export default {
 <style scoped>
 body{
     background-color: #9a70f0;
-    height: 500px;
+    height: 600px;
 }
 p{
     text-align: center;
     margin-top:100px;
+    font-family: Poppins;
 }
 img{
     margin-top: 20px;

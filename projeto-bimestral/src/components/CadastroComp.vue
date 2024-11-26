@@ -2,18 +2,18 @@
 <h2>CADASTRO</h2>
 <div>
 <form @submit.prevent="cadastrar">
-    <input style="margin-bottom: 10px;" type="text" placeholder="Nome" >
+    <input style="margin-bottom: 10px;" type="text" placeholder="Nome" required>
     <br>
-    <input style="margin-bottom: 10px;" type="email" placeholder="Email">
+    <input style="margin-bottom: 10px;" type="email" placeholder="Email" required>
     <br>
-    <input style="margin-bottom: 10px;" type="text" placeholder="Telefone">
+    <input style="margin-bottom: 10px;" type="text" placeholder="Telefone" required>
     <br>
-    <input style="margin-bottom: 10px; width: 120px;" type="number" placeholder="CEP">
-    <input style="width:110px; margin-left: 10px;" type="number" placeholder="N° da casa">
+    <input style="margin-bottom: 10px; width: 120px;" type="number" placeholder="CEP" required>
+    <input style="width:110px; margin-left: 10px;" type="number" placeholder="N° da casa" required>
     <br>
-    <input style="margin-bottom: 10px; margin-right: 10px;" type="password" placeholder="Senha">
+    <input style="margin-bottom: 10px; margin-right: 10px;" type="password" placeholder="Senha" required>
     <br>
-    <input style="margin-bottom: 10px;" type="password" placeholder="Confirme a senha">
+    <input style="margin-bottom: 10px;" type="password" placeholder="Confirme a senha" required>
     <br>
     <button class="cadastrar" style="margin: auto; width: 100px; margin-top: 30px;" type="submit" value="Cadastrar">Cadastrar</button>
 </form>
@@ -31,7 +31,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 h2{
     color: black;
     margin-top: -30px;
