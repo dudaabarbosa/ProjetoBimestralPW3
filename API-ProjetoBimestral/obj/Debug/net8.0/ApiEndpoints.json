@@ -10,6 +10,54 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API_ProjetoBimestral.Controllers.LivroController",
+    "Method": "livroGet",
+    "RelativePath": "api/livro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.LivroController",
+    "Method": "livroPost",
+    "RelativePath": "api/livro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "new_livro",
+        "Type": "API_ProjetoBimestral.Models.LivroModelPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.LivroController",
+    "Method": "imagemGet",
+    "RelativePath": "api/livro/img/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API_ProjetoBimestral.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
@@ -27,6 +75,7 @@
         ],
         "StatusCode": 200
       }
-    ]
+    ],
+    "EndpointName": "GetWeatherForecast"
   }
 ]
