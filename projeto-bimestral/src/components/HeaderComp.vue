@@ -53,7 +53,8 @@
         </div>
     </div>
 
-    <nav>
+    <nav> <!--Coloque uma div, todos as rotas não estão centralizadas com a barra de pesquisar -->
+
         <router-link style="text-decoration: none; color: inherit; margin-right: 80px; margin-left: 20px;" to="/">HOME</router-link>
         <router-link style="text-decoration: none; color: inherit; margin-right: 80px;" to="/sobre">SOBRE NÓS</router-link>
         <router-link style="text-decoration: none; color: inherit;" to="/contato">CONTATO</router-link>
