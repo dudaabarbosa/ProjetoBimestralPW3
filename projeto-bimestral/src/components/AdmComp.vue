@@ -48,6 +48,7 @@
 <button type="button" class="btn btn-primary" >
   Launch demo modal
 </button>
+<button type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#modalAdd">add livro</button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -68,11 +69,66 @@
     </div>
   </div>
 </div>
+
+
+<div class="modal fade" id="modalAdd" tabindex="-1" aria-labelledby="modalAddLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalAddLabel">Modal titlkadalkjdsalke</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <input type="text" v-model="nome_livro" placeholder="Nome do livro">
+          <input type="text" v-model="autor_livro" placeholder="Autor do livro">
+          <input type="text" v-model="preco" placeholder="Preço do livro">
+          <input type="text" v-model="paginas" placeholder="Paginas do livro">
+          <input type="text" v-model="publicacao" placeholder="Publicacao do livro">
+          <input type="text" v-model="editora" placeholder="Editora do livro">
+          <input type="text" v-model="imagem" placeholder="Imagem do livro">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary" click="paraobanco">Adicionar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </template>
 
 <script>
+import api from "@/services/api";
 export default {
-    name: "AdmComp"
+    name: "AdmComp",
+    data(){
+      return{
+        nome_livro: '',
+        autor_livro: '',
+        preco: '',
+        paginas: '',
+        publicacao: '',
+        editora: '',
+        imagem: '',
+        obj: {
+          "nome_livro": '',
+          "autor_livro": '',
+          "preco": '',
+          "paginas": '',
+          "publicacao": '',
+          "editora": '',
+          "imagem": ''
+        }
+      }
+    },
+    methods: {
+      paraobanco(){
+        this.obj.nome_livro = this.nome_livro
+        api.post("/croiarlivro/")
+      }
+    }
 }
 </script>
 
