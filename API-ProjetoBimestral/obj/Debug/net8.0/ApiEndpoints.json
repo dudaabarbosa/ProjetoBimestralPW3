@@ -10,6 +10,114 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API_ProjetoBimestral.Controllers.ClienteController",
+    "Method": "createCliente",
+    "RelativePath": "api/clientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "API_ProjetoBimestral.Models.ClienteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.ClienteController",
+    "Method": "loginUser",
+    "RelativePath": "api/clientes/{email}\u0026\u0026{senha}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "senha",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.ClienteController",
+    "Method": "insertInCarrinho",
+    "RelativePath": "api/clientes/carrinho",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carrinho",
+        "Type": "API_ProjetoBimestral.Models.CarrinhoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.ClienteController",
+    "Method": "getCarrinho",
+    "RelativePath": "api/clientes/carrinho/{id_cliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_cliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.ClienteController",
+    "Method": "delProd",
+    "RelativePath": "api/clientes/carrinho/del/{id_cliente}\u0026\u0026{id_livro}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_cliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id_livro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "API_ProjetoBimestral.Controllers.LivroController",
     "Method": "livroGet",
     "RelativePath": "api/livro",
@@ -43,9 +151,100 @@
   },
   {
     "ContainingType": "API_ProjetoBimestral.Controllers.LivroController",
+    "Method": "putLivro",
+    "RelativePath": "api/livro/alter/{id}\u0026\u0026{autor}\u0026{preco}\u0026{editora}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "autor",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "preco",
+        "Type": "System.Single",
+        "IsRequired": true
+      },
+      {
+        "Name": "editora",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.LivroController",
+    "Method": "deleteLivro",
+    "RelativePath": "api/livro/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.LivroController",
+    "Method": "livroOneGet",
+    "RelativePath": "api/livro/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.LivroController",
     "Method": "imagemGet",
     "RelativePath": "api/livro/img/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_ProjetoBimestral.Controllers.LivroController",
+    "Method": "imageeemGet",
+    "RelativePath": "api/livro/teste",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -75,7 +274,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]

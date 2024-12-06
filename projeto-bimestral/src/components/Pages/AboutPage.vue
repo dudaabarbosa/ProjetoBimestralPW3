@@ -15,10 +15,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 footer{
     position: absolute;
-    margin-top: 80px;
+    bottom: 0;
 }
 header{
     margin-bottom: 20px;

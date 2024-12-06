@@ -15,8 +15,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 footer{
-    position: relative;
+    position: absolute;
+    bottom: 0;
 }
 </style>

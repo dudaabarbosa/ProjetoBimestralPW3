@@ -149,9 +149,9 @@ import 'boxicons'
     <h2 class="logar">LOGIN</h2>
     <div class="caixinhas">
         <form @submit.prevent="logar">
-            <input style="margin-bottom: 10px;" type="email" placeholder="Email" required>
+            <input style="margin-bottom: 10px;" type="email" v-model="email" placeholder="Email" required>
             <br>
-            <input style="margin-bottom: 10px;" type="password" placeholder="Senha" required>
+            <input style="margin-bottom: 10px;" type="password" v-model="senha" placeholder="Senha" required>
             <br>
                 <input style="margin: auto; width: 80px;" type="submit" value="Logar">
         </form>
@@ -161,11 +161,34 @@ import 'boxicons'
 </template>
 
 <script>
+import api from "@/services/api"
 export default {
     name: "LoginComp",
+    data(){
+        return{
+            email:'',
+            senha:''
+        }
+    },
     methods: {
         logar() {
-            this.$router.push({ path: '/' })
+            if(this.email == "adm@adm" && this.senha=="adm"){
+                localStorage.clear()
+                this.$router.push({ path: '/adm' })
+            }
+            else{
+                api.get(`clientes/${this.email}&&${this.senha}`)
+                .then(response => {
+                    if (response.status == 200) {
+                        var cliente_id = response.data.cliente_id
+                        localStorage.setItem('cliente_id', cliente_id);
+                        this.$router.push({ path: '/' })
+                    }
+                })
+                .catch(error => {
+                    console.error("Erro na requisição:", error);
+                });
+            }
         }
     }
 }

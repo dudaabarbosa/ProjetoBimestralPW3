@@ -4,14 +4,12 @@
     <tr>
         <th>Nome</th>
         <th>Idade</th>
-        <th>Frase preferida</th>
-        <th>Foto</th>
+        <th>Hobby</th>
     </tr>
     <tr v-for="(objeto, index) in objetos" :key="index">
         <td>{{ objeto.Nome }}</td>
         <td>{{ objeto.Idade }}</td>
-        <td>{{ objeto.Frase }}</td>
-        <td><img class="imagem" :src="objeto.Foto"></td>
+        <td>{{ objeto.Hobby }}</td>
     </tr>
 </table>
 
@@ -23,8 +21,10 @@ export default {
     data(){
         return{
             objetos: [
-                {"Nome": "Eduarda Barbosa", "Idade": "17 anos", "Frase": "É isso", "Foto": require("@/assets/dudis.jpg")},
-                {"Nome": "Khaléu Sanches", "Idade": "17 anos", "Frase": "Sim", "Foto": require("@/assets/babykhaleu.jpg") }]
+                {"Nome": "Eduarda Barbosa", "Idade": "17 anos", "Hobby": "Dançar"},
+                {"Nome": "Khaléu", "Idade": "17 anos", "Hobby": "Programar",},
+                {"Nome": "Luís", "Idade": "18 anos", "Hobby": "Programar",}
+            ]
         }
     }
 
@@ -32,7 +32,6 @@ export default {
 </script>
 
 <style>
-
 p{
     margin: 30px;
 }

@@ -1,34 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\",
+  "WorkspaceRootPath": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|c:\\users\\tecnico\\desktop\\projetobimestralpw3\\api-projetobimestral\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|c:\\users\\tecnico\\desktop\\projetobimestralpw3\\api-projetobimestral\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|c:\\users\\tecnico\\desktop\\projetobimestralpw3\\api-projetobimestral\\models\\livromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:models\\livromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|c:\\users\\tecnico\\desktop\\projetobimestralpw3\\api-projetobimestral\\models\\livromodelpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:models\\livromodelpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|c:\\users\\tecnico\\desktop\\projetobimestralpw3\\api-projetobimestral\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|c:\\users\\tecnico\\desktop\\projetobimestralpw3\\api-projetobimestral\\data\\connectioncontextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|c:\\users\\khaleu\\desktop\\projetobimestralpw3\\api-projetobimestral\\data\\connectioncontextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:data\\connectioncontextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|c:\\users\\tecnico\\desktop\\projetobimestralpw3\\api-projetobimestral\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|c:\\users\\khaleu\\desktop\\projetobimestralpw3\\api-projetobimestral\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\models\\carrinhomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:models\\carrinhomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\models\\livromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:models\\livromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\models\\livromodelpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:models\\livromodelpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8155E47C-F123-4B55-B68D-BBF2FE25011F}|API-ProjetoBimestral.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1086,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +54,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-26T18:01:36.305Z",
+              "DocumentIndex": 0,
+              "Title": "ConnectionContextDB.cs",
+              "DocumentMoniker": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Data\\ConnectionContextDB.cs",
+              "RelativeDocumentMoniker": "Data\\ConnectionContextDB.cs",
+              "ToolTip": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Data\\ConnectionContextDB.cs",
+              "RelativeToolTip": "Data\\ConnectionContextDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:41:28.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LivroModelPost.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\LivroModelPost.cs",
-              "RelativeDocumentMoniker": "Models\\LivroModelPost.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\LivroModelPost.cs",
-              "RelativeToolTip": "Models\\LivroModelPost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Title": "CarrinhoModel.cs",
+              "DocumentMoniker": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\CarrinhoModel.cs",
+              "RelativeDocumentMoniker": "Models\\CarrinhoModel.cs",
+              "ToolTip": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\CarrinhoModel.cs",
+              "RelativeToolTip": "Models\\CarrinhoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T17:34:13.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:19:14.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LivroController.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Controllers\\LivroController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Controllers\\LivroController.cs",
-              "RelativeToolTip": "Controllers\\LivroController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAqwCQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T17:21:55.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T04:41:27.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LivroModel.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\LivroModel.cs",
-              "RelativeDocumentMoniker": "Models\\LivroModel.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\LivroModel.cs",
-              "RelativeToolTip": "Models\\LivroModel.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwB0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T17:18:37.793Z",
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T18:01:36.305Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ClienteModel.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\ClienteModel.cs",
-              "RelativeDocumentMoniker": "Models\\ClienteModel.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\ClienteModel.cs",
-              "RelativeToolTip": "Models\\ClienteModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Title": "LivroModelPost.cs",
+              "DocumentMoniker": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\LivroModelPost.cs",
+              "RelativeDocumentMoniker": "Models\\LivroModelPost.cs",
+              "ToolTip": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\LivroModelPost.cs",
+              "RelativeToolTip": "Models\\LivroModelPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T04:54:49.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T17:34:13.857Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Controllers\\LivroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
+              "ToolTip": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Controllers\\LivroController.cs",
+              "RelativeToolTip": "Controllers\\LivroController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAqwFYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T04:53:37.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T17:21:55.683Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ConnectionContextDB.cs",
-              "DocumentMoniker": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Data\\ConnectionContextDB.cs",
-              "RelativeDocumentMoniker": "Data\\ConnectionContextDB.cs",
-              "ToolTip": "C:\\Users\\Tecnico\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Data\\ConnectionContextDB.cs",
-              "RelativeToolTip": "Data\\ConnectionContextDB.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAoAAAAnAAAAAAAAAA==",
+              "Title": "LivroModel.cs",
+              "DocumentMoniker": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\LivroModel.cs",
+              "RelativeDocumentMoniker": "Models\\LivroModel.cs",
+              "ToolTip": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\LivroModel.cs",
+              "RelativeToolTip": "Models\\LivroModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T04:51:55.948Z",
+              "WhenOpened": "2024-11-26T17:18:37.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "Models\\ClienteModel.cs",
+              "ToolTip": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Models\\ClienteModel.cs",
+              "RelativeToolTip": "Models\\ClienteModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:54:49.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\khaleu\\Desktop\\ProjetoBimestralPW3\\API-ProjetoBimestral\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:53:37.015Z",
               "EditorCaption": ""
             }
           ]

@@ -42,6 +42,15 @@ foreign key(id_cliente) references Cliente (cliente_id),
 foreign key(id_livro) references Livros (livro_id),
 primary key(pedido_id) );
 
+create table Carrinho(
+carrinho_id int primary key auto_increment,
+id_livro int not null,
+quantidade int not null,
+id_cliente int not null,
+foreign key(id_cliente) references Cliente (cliente_id),
+foreign key(id_livro) references Livros (livro_id)
+);
+
 select * from Pedidos;
 
 select * from livros; Insert into Livros(nome_livro, autor, preco, paginas, localizacao, editora, publicacao) values ('Política','Aristóteles','54.00','352','Português','Edipro','1 Fevereiro de 2019'), ('A República','Platão','15.00','363','Português','Lafonte','7 Agosto de 2021');

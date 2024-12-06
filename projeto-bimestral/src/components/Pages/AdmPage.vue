@@ -1,14 +1,15 @@
 <template>
-<header></header>
 <AdmComp></AdmComp>
+<FooterComp></FooterComp>
 </template>
 
 <script>
 import AdmComp from '../AdmComp.vue';
+import FooterComp from '../FooterComp.vue';
 
 export default {
     name: "AdmPage",
-    components: {AdmComp}
+    components: {AdmComp, FooterComp}
 }
 </script>
 

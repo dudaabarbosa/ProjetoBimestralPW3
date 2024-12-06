@@ -1,14 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API_ProjetoBimestral.Models
 {
     public class LivroModel
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int livro_id {  get; set; }
         public string nome_livro { get; set; }
         public byte[] img_livro { get; set; }
-        public string url_img_livro { get; set; }
+        public string? url_img_livro { get; set; }
         public string autor {  get; set; }
         public float preco {  get; set; }
         public string paginas { get; set; }
@@ -18,7 +20,6 @@ namespace API_ProjetoBimestral.Models
         public LivroModel(
             string nome_livro,
             byte[] img_livro,
-            string url_img_livro,
             string autor,
             float preco,
             string paginas,
@@ -27,7 +28,6 @@ namespace API_ProjetoBimestral.Models
         {
             this.nome_livro = nome_livro;
             this.autor = autor;
-            this.url_img_livro = url_img_livro;
             this.img_livro = img_livro;
             this.preco = preco;
             this.paginas = paginas;

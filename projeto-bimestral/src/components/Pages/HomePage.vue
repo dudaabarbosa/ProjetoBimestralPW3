@@ -1,9 +1,9 @@
 <template>
 <HeaderComp></HeaderComp>
 <CarrosselComp></CarrosselComp>
-<FooterComp></FooterComp>
 <div class="books">
 <BooksComp></BooksComp>
+<FooterComp></FooterComp>
 </div>
 </template>
 
@@ -21,8 +21,8 @@ export default {
 
 <style scoped>
 footer{
-    position: absolute;
-    margin-top: 600px;
+    position: relative;
+    top: 100%;
 }
 .books{
     margin-top: 50px;

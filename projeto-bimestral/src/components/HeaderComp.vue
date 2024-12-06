@@ -48,16 +48,18 @@
             <input type="text" placeholder="Pesquisar">
         </form>
         <div class="lo-ca">
-        <router-link style="text-decoration: none; color: inherit; margin-right: 30px; margin-left: 15px;" to="/adm"><img src="../assets/perfil.png" style="width:30px; margin-left: 50px;"> Login</router-link>
+        <router-link style="text-decoration: none; color: inherit; margin-right: 30px; margin-left: 15px;" to="/login"><img src="../assets/perfil.png" style="width:30px; margin-left: 50px;"> Login</router-link>
         <router-link style="text-decoration: none; color: inherit; margin-right: 40px;" to="/carrinho"><img src="../assets/carrinho.png" style="width:30px"> Carrinho</router-link>
         </div>
     </div>
 
     <nav> <!--Coloque uma div, todos as rotas não estão centralizadas com a barra de pesquisar -->
 
-        <router-link style="text-decoration: none; color: inherit; margin-right: 80px; margin-left: 20px;" to="/">HOME</router-link> <!-- Uma dica: não use style dentro de qualquer tag no HTML, isso fica muito ruim de corrigir depois. -->
-        <router-link style="text-decoration: none; color: inherit; margin-right: 80px;" to="/sobre">SOBRE NÓS</router-link>
-        <router-link style="text-decoration: none; color: inherit;" to="/contato">CONTATO</router-link>
+        <div class="navb">
+          <router-link style="text-decoration: none; color: inherit;" to="/">HOME</router-link> <!-- Uma dica: não use style dentro de qualquer tag no HTML, isso fica muito ruim de corrigir depois. -->
+          <router-link style="text-decoration: none; color: inherit;" to="/sobre">SOBRE NÓS</router-link>
+          <router-link style="text-decoration: none; color: inherit;" to="/contato">CONTATO</router-link>
+        </div>
     </nav>
 </header>
 </template>
@@ -73,6 +75,17 @@ export default {
 <style scoped>
 img{
   width: 80px;
+  margin-left: 50px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.navb{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
 }
 header{
     background-color: #9a70f0;
@@ -82,9 +95,7 @@ header{
   grid-template-columns: 33% 33% 33%;
   align-items: center;
 }
-form {
-    display: flex;
-    flex-direction: column;
+form{
     color: var(--bargronaldpo);
 }
 .caixinhas{
@@ -94,8 +105,8 @@ form {
 input{
   border-radius: 30px;
   text-align: center;
-  margin-left: -20px;
-  width: 450px;
+  padding: 4px;
+  width:100%;
   /* Falta um padding aqui */
   border: black;
 }
